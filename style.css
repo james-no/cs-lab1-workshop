@@ -1,0 +1,170 @@
+/* =========================
+Base styles (minimal) -- Feel free to change these to match your style!
+========================= */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+line-height: 1.5;
+color: #222;
+background: #fff;
+}
+
+/* =========================
+Accessibility
+========================= */
+.skip-link {
+position: absolute;
+top: -40px;
+left: 0;
+padding: 0.5rem;
+background: #000;
+color: #fff;
+}
+
+.skip-link:focus {
+top: 0;
+}
+
+/* =========================
+Global spacing
+========================= */
+header,
+main,
+footer,
+section {
+padding: 1rem;
+}
+
+/* =========================
+Typography (intentionally plain)
+========================= */
+h1,
+h2 {
+line-height: 1.25;
+}
+
+ul {
+padding-left: 1.25rem;
+}
+
+li {
+margin-bottom: 0.5rem;
+}
+
+/* =========================
+Forms (bare minimum)
+========================= */
+label {
+display: block;
+font-weight: 600;
+margin-bottom: 0.25rem;
+}
+
+input,
+button {
+font: inherit;
+}
+
+input {
+width: 100%;
+padding: 0.4rem;
+margin-bottom: 1rem;
+}
+
+button {
+padding: 0.6rem 1rem;
+cursor: pointer;
+}
+
+/*
+Everything else is intentionally left for you to design:
+- layout
+- hierarchy
+- spacing
+- emphasis
+- visual grouping
+*/
+
+/* =========================
+Layout
+========================= */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* =========================
+Typography & Hierarchy
+========================= */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+main > p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #222;
+    margin-top: 0;
+}
+
+/* =========================
+Buttons
+========================= */
+button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #15803d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+Sections & Spacing
+========================= */
+section {
+    margin-bottom: 1.5rem;
+}
+
+header {
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.workshop-info {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
